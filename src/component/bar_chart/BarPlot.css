@@ -1,0 +1,7 @@
+.plotWrapper {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}

@@ -1,0 +1,209 @@
+div.quiz-builder{
+  padding: 0px;
+  background-color: #feefe9;
+  overflow: hidden;
+  .preview-mode {
+    .ques-prev-content {
+      max-width: 600px;
+    }
+    .phd{
+      text-align: center;
+      & > div {
+        display: inline-block;
+      }
+      .bck-btn > img {
+        transform: rotate(90deg);
+      }
+    }
+  }
+  .q-input{
+    border-radius: 3px;
+    border: 1px solid #979797;
+    background-color: #ffffff;
+    width: 95%;
+    color: #1d1d1d;
+    padding: 0 10px;
+  }:focus{
+    outline: none;
+  }
+  .q-input[type="checkbox"]{
+    width: auto;
+  }
+  input.q-input[name="option_value"] {
+    max-width: 52px;
+  }
+  .icon-btn {
+    & > img {
+      width: 30px;
+    }
+    cursor: pointer;
+  }
+  .checkbox-theme input[type="radio"] {
+    opacity: 0;
+  }
+  .checkbox-theme input[type="radio"] + label::before{
+    border-radius: 4px;
+  }
+  .checkbox-theme input[type="radio"]:checked + label::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: -30px;
+    top: 0px;
+    border-radius: 4px;
+    background-color: #5352ed;
+    margin: 4px;
+  }
+  .dv-star-rating {
+    label {
+      margin-left: 5px;
+      font-size: 20px;
+    }
+  }
+  .checkbox-theme label::before{
+    background-color: transparent;
+  }
+  .srv-validation-message {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #d41111;
+  }
+
+  #formBuilder{
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 10px 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .icon-btn {
+      & > img{
+        margin-right: 20px;
+      }
+    }
+    .questions-wrapper{
+      .q-wrapper {
+        padding: 22px 15px;
+
+        .ques-type-icon{
+          & > img {
+            margin-right: 10px;
+          }
+        }
+        div.rt-sec {
+          align-self: flex-end;
+          .q-del-icon {
+            padding: 5px;
+            cursor: pointer;
+            & > img {
+              width: 16.4px;
+              margin: 0 5px
+            }
+          }
+        }
+        .d-f-1{
+          flex:1
+        }
+        .inputarea {
+          background-color: transparent;
+          border: none;
+          line-height: 28px;
+          color: #1d1d1d;
+          width: 100%;
+          resize: none;
+        }:focus{
+          outline: none;
+        }
+        .options-wrapper {
+          div {
+            margin-bottom: 10px;
+            div{
+              &:nth-child(1) {
+                flex: 0.6
+              }
+              &:nth-child(2) {
+                flex: 0.1
+              }
+              &:nth-child(3) {
+                flex: 0.1
+              }
+              &:nth-child(4) {
+                flex: 0.1
+              }
+              &:nth-child(5) {
+                flex: 0.1
+              }
+            }
+          }
+        }
+      }
+      .q-wrapper.active{
+        background-color: #f8f9ff;
+      }
+    }
+    .sb-item.icon.free-txt {
+      background-image: url('../../../../../assets/img/quiz/free-text-icon.png');
+    }
+    .sb-item.icon.multi-choice {
+      background-image: url('../../../../../assets/img/quiz/multi-select-icon.png');
+    }
+    .sb-item.icon.checkbox {
+      background-image: url('../../../../../assets/img/quiz/checkbox-icon.png');
+    }
+    .sb-item.icon.dropdown {
+      background-image: url('../../../../../assets/img/quiz/dropdown-icon.png');
+    }
+    .sb-item.icon.rating {
+      background-image: url('../../../../../assets/img/quiz/rating-icon.png');
+    }
+  }
+
+  #formPreview {
+    padding: 10px 0;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    line-height: 28px;
+    .icon-btn {
+      & > img{
+        margin-right: 20px;
+      }
+      .deactive{
+        opacity: 0.5;
+      }
+    }
+    .btn-theme {
+      cursor: pointer;
+      padding: 1px 39px;
+      border-radius: 0px;
+    }
+    .ques-prev-wrapper{
+      line-height: 28px;
+      flex: 1;
+
+      .ques-prev-content {
+        width: 80%;
+        margin: 0 auto;
+        padding: 22px 0;
+      }
+    }
+    .ques-controls-wrapper {
+      margin-bottom: 64px;
+    }
+  }
+  #empty-prev-sec {
+    .empty-bar{
+      height: 21px;
+      margin: 25px auto;
+      background-color: #d8d8d8;
+      border-radius: 4px;
+    }
+    .w-40 {
+      width: 40%;
+    }
+    .w-60 {
+      width: 60%;
+    }
+  }
+}

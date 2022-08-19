@@ -1,0 +1,122 @@
+.praise .view-btn {
+  cursor: pointer;
+}
+.feedback-form-container {
+  margin: 10px 0px;
+}
+#custom-course-step-feedback .separator-border{
+  background-color: #5352ed;
+  height: 4px;
+}
+#custom-course-step-feedback .f-rightarea .course-info{
+  background-color: #f8f9ff;
+  margin: 0 -15px;
+  padding: 0 15px;
+  padding-bottom: 5px;
+}
+#custom-course-step-feedback .f-leftarea .course-info .f-c-title {
+  color: #181818;
+}
+#custom-course-step-feedback .f-leftarea .course-info .f-c-desc {
+  line-height: 32px;
+  color: #000000;
+}
+#custom-course-step-feedback .f-leftarea .video-sec .video-wrapper {
+  text-align: center;
+  /* margin: 60px 0; */
+  background-color: #d8d8d8;
+}
+#custom-course-step-feedback .f-leftarea .video-sec .video-wrapper #videoPlayer:not(iframe){
+  max-width: 100% ; 
+  height: 50vh;
+}
+#custom-course-step-feedback .f-leftarea .video-info p {
+  margin-bottom: 0;
+}
+#custom-course-step-feedback .f-leftarea .video-info .emph-box{
+  display: inline;
+  padding: 2px 10px;
+  color: #202020;
+  border-radius: 100px;
+  background-color: #33ca6f;
+  box-shadow: 0 5px 10px rgba(0, 205, 114, 0.31)
+}
+#custom-course-step-feedback .f-leftarea .author-name {
+  color: #7272fc;
+  text-transform: capitalize
+}
+#custom-course-step-feedback .f-leftarea .video-info .icon {
+  max-width: 30px;
+  max-height: 30px;
+  margin-top: -4px
+}
+#custom-course-step-feedback .f-leftarea .video-info .icon + p {
+  display: inline;
+  padding-left: 5px;
+}
+#custom-course-step-feedback h4 {
+  color: #1a1a1a;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 42px;
+  margin-bottom: 0;
+}
+#custom-course-step-feedback .f-leftarea .review-sec .star-count {
+  /* display: inline-block; */
+}
+#custom-course-step-feedback .f-leftarea .review-sec .criterias p {
+  margin-bottom: 0;
+}
+#custom-course-step-feedback .f-leftarea .review-sec .criterias.invalid{
+  border: 2px solid #dc3545;
+  border-radius: 4px;
+}
+#custom-course-step-feedback .f-leftarea .review-sec .criterias > .row {
+  margin: 5px 0;
+  min-height: 40px;
+}
+#custom-course-step-feedback .f-leftarea .review-sec .dv-star-rating {
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+.overall-score-rating-cmp .dv-star-rating-star {
+  margin: 0 5px 
+}
+.f-rightarea h4 {
+  color: #1d1d1d;
+  font-size: 24px;
+}
+.f-rightarea .f-wht-wnt-well {
+  padding-bottom: 10px
+}
+.f-rightarea textarea {
+  min-height: 38vh;
+  border-radius: 4px;
+  border: 2px solid #5352ed;
+  line-height: 24px;
+  font-size: 18px;
+}
+.f-rightarea textarea:focus {
+  border: 2px solid #5352ed;
+  box-shadow: none
+}
+.f-rightarea .action-btn {
+  margin: 8px;
+  text-align: right
+}
+.f-rightarea .btn-theme {
+  border-radius: 0
+}
+#video-feedback-img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#custom-course-step-feedback .no-iframe {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}

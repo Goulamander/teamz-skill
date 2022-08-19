@@ -1,0 +1,78 @@
+.bubbleSvg {
+    background: white;
+    border-radius: 3px;
+}
+
+.scrollWrapper {
+    position: absolute;
+}
+
+.bubbleSvg .axis-grid line {
+    stroke: #d9dbe5;
+}
+
+.plotWrapper .axis line {
+    display: none;
+}
+
+.plotWrapper .axis .domain {
+    display: none;
+}
+
+.bubbleSvg .axis-grid .domain {
+    stroke: #d9dbe5;
+}
+
+.customTick {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding-left: 25px;
+        box-sizing: border-box;
+        color: #7171f5;
+        padding-right: 10px;
+}
+
+.customTick img {
+    border-radius: 50px;
+}
+
+.customTick span {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.bubbleSvg .y.axis .tick {
+    visibility: hidden;
+}
+
+.x.axis .tick text {
+    letter-spacing: 0.5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.bubbleSvg .dot {
+    cursor: pointer;
+}
+
+.percentageWrapper {
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chartWrapper {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: white;
+    position: relative;
+}
+
+.xAxisWrapper {
+    background: white;
+}

@@ -1,0 +1,393 @@
+ @media(max-width:1199px) {
+     .update-text .card-body {
+         left: 0px;
+    }
+     .banner-left h3 {
+         font-size: 28px;
+    }
+     .banner-left p {
+         font-size: 16px;
+    }
+     .banner-left p span {
+         font-size: 22px;
+    }
+     .courses-box h3 {
+         font-size: 16px;
+    }
+     .events-card .card {
+         padding: 20px;
+    }
+     .card-info li {
+         font-size: 12px;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-link {
+         padding: 1.1rem 1.5rem;
+    }
+     .cross-notify {
+         right: 15px;
+         top: 10px;
+    }
+     .srch-box {
+         margin-left: 20px;
+    }
+     .content-left img.profile-img {
+         width: 160px;
+         top: -80px;
+    }
+     .content-left {
+         padding-top: 95px;
+    }
+     h3.main-head {
+         font-size: 21px;
+    }
+     .prof-info h4 {
+         font-size: 19px;
+    }
+     p.desg {
+         font-size: 13px;
+    }
+     .courses-box h3 {
+         font-size: 15px;
+    }
+     .courses-list .progress {
+         height: 1.1rem;
+    }
+     .recommend-box h3 {
+         font-size: 17px;
+    }
+     .events-card h5.card-title {
+         font-size: 15px;
+    }
+     .banner-left {
+         width: 90%;
+    }
+}
+ @media(max-width:991px) {
+     .cs-nav {
+         padding: 0px 15px;
+    }
+     .notify-list img {
+         float: left;
+    }
+     .notify-list {
+         float: left;
+         width: 100%;
+    }
+     .content-left {
+         padding-top: 30px;
+    }
+     .content-left img.profile-img {
+         position: static;
+         margin-bottom: 15px;
+    }
+     .update-text .card-body {
+         left: -15px;
+    }
+     .update-text p.card-text {
+         font-size: 14px;
+    }
+     .work-box p {
+         font-size: 15px;
+    }
+     .view-btn {
+         font-size: 15px;
+    }
+     .srch-box {
+         margin-top: 0px !important;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-item .form-inline .form-control {
+         width: 100%;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-link {
+         padding-left: 0;
+    }
+     .events-card .card {
+         margin-bottom: 20px;
+    }
+     button.btn-add-course {
+         font-size: 13px;
+         padding: .375rem .6rem;
+    }
+     .content-left {
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+     .content-left img.profile-img {
+         width: 140px;
+    }
+     .weekly-right img {
+         margin-right: 8px;
+    }
+     .weekly-right span {
+         margin-right: 10px;
+    }
+     .srch-box {
+         margin-left: 0;
+    }
+     .banner-left h3 {
+         font-size: 26px;
+    }
+     .courses-list .progress {
+         height: 1rem;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-item.dropdown a.nav-link {
+         padding-left: 0;
+    }
+     .prof-info h4 {
+         font-size: 18px;
+    }
+     .srch-box .fa-search {
+         left: 0px;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-item .form-inline .form-control {
+         padding-left: 25px;
+    }
+     .banner-left {
+         width: 100%;
+    }
+     .update-text h5.card-title {
+         font-size: 17px;
+    }
+}
+ @media(max-width:767px) {
+     .banner-left h3 {
+         font-size: 26px;
+    }
+     .banner-left p span {
+         font-size: 20px;
+    }
+     .notify-list img {
+         width: 30px;
+         height: 30px;
+    }
+     .notify-list p {
+         margin-left: 12px;
+         margin-top: 0;
+         width: calc(100% - 42px);
+    }
+     .notify-list button.cs-btn {
+         top: 0;
+    }
+     .main-content .col-xl-3.col-lg-4.col-md-5.pl-0 {
+         padding-left: 15px !important;
+    }
+     .update-text .card-body {
+         left: 0;
+    }
+     .content-left {
+         margin-top: 20px;
+         height: calc(100% - 20px);
+    }
+     .main-content .col-xxl-4 {
+         padding-left: 15px !important;
+    }
+     section.banner {
+         padding: 20px 0 25px;
+    }
+     .banner-left h3 {
+         font-size: 24px;
+    }
+     .work-high img {
+         width: 18px;
+    }
+     .navbar-light .navbar-toggler-icon {
+         width: 1.25em;
+         height: 1.25em;
+    }
+     .notify-list p {
+         font-size: 14px;
+    }
+}
+ @media(max-width:575px) {
+     .banner-left {
+         margin-top: 0px;
+    }
+     .notify-list button.cs-btn {
+         float: left;
+         margin-top: 0px;
+         padding: 5px 15px;
+    }
+     .notify-list button.csnew-btn {
+         background-color: #ff824e;
+         color: #fff;
+         border-radius: 0;
+         padding: 6px 30px;
+         float: right;
+         margin-top: 0;
+         Width: 25%;
+         margin-right: 5px;
+         font-size: 14px;
+         font-family: 'Conv_Lato-Bold';
+    }
+     .banner-left h3 {
+         font-size: 22px;
+    }
+     .cs-nav {
+         padding: 0px 15px;
+    }
+     .content-left img.profile-img {
+         width: 120px;
+    }
+     .recommend-box .card-img {
+         margin-bottom: 15px;
+         max-width: 100%;
+         width: auto;
+         height: 85px;
+    }
+     h3.main-head {
+         font-size: 20px;
+    }
+     .weekly-box .weekly-calendar {
+         text-align: left !important;
+         margin-top: 15px;
+    }
+     .update-text .card-body {
+         left: -10px;
+    }
+     .work-box p {
+         font-size: 14px;
+         margin-bottom: 10px;
+    }
+     .recommend-box .card-body {
+         padding: 0;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-link {
+         padding: .625rem 1.75rem .625rem 0;
+    }
+     .courses-list .progress {
+         height: .8rem;
+    }
+     .notify-list p {
+         font-size: 14px;
+    }
+     .recommend-box .card.mb-3 {
+         margin-bottom: 1.5rem !important;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-link {
+         padding: .625rem 1.75rem .5rem 0px;
+         font-size: 14px;
+    }
+     .cs-nav.navbar-light .navbar-nav .active .nav-link {
+         border-bottom: 2px solid #FFAE8D;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-item .form-inline .form-control {
+         font-size: 14px;
+    }
+     .srch-box .fa-search {
+         font-size: 14px;
+    }
+     .cs-nav.navbar-light .navbar-nav .nav-link img {
+         width: 30px;
+         height: 30px;
+    }
+     .view-all {
+         font-size: 15px;
+    }
+}
+ @media(max-width:400px) {
+     .banner-left h3 {
+         font-size: 20px;
+    }
+     .banner-left p span {
+         font-size: 18px;
+    }
+     .notify-list p b {
+         display: block;
+    }
+     .notify-list img {
+         width: 25px;
+         height: 25px;
+    }
+     .view-all a {
+         font-size: 14px;
+    }
+     .content-left img.profile-img {
+         width: 100px;
+    }
+     .prof-info h4 {
+         font-size: 17px;
+    }
+     button.btn-add-course {
+         font-size: 13px;
+    }
+     .courses-box h3 {
+         font-size: 14px;
+    }
+     h3.main-head {
+         font-size: 18px;
+    }
+     .update-text .card-body {
+         left: 0;
+    }
+     .view-all {
+         font-size: 14px;
+    }
+     .courses-list p {
+         font-size: 14px;
+    }
+     span.progress-value {
+         font-size: 16px;
+    }
+     .common-head {
+         font-size: 15px;
+    }
+     .update-text h5.card-title {
+         font-size: 16px;
+    }
+}
+ @media only screen and (min-width:1200px) {
+     .col-xxl-4 {
+         flex: 0 0 378px;
+         max-width: 378px;
+    }
+     .col-xxl-8 {
+         flex: 0 0 calc(100% - 378px);
+         max-width: calc(100% - 378px);
+    }
+}
+ @media only screen and (min-width:660px) and (max-width:991px) {
+     .col-xxl-4 {
+         flex: 0 0 38%;
+         max-width: 38%;
+    }
+     .col-xxl-8 {
+         flex: 0 0 62%;
+         max-width: 62%;
+    }
+}
+ @media only screen and (min-width:660px) and (max-width:767px){
+     .update-text img.card-img {
+         margin-left: 10px;
+    }
+     .update-text .card-body {
+         left: 10px;
+    }
+     button.btn-add-course {
+         float: none;
+         top: 10px;
+    }
+     .common-head {
+         font-size: 15px;
+         margin-top: 5px;
+    }
+     button.weekly-btn {
+         padding: .375rem .5rem;
+    }
+     .weekly-right span {
+         margin-right: 5px;
+    }
+     .weekly-right img {
+         margin-right: 3px;
+    }
+}
+
+ @media (max-width: 576px){
+     .modal-theme .modal-content{
+         padding: 30px;
+    }
+}
+ @media (max-width: 480px){
+     .modal-theme .modal-content{
+         padding: 30px;
+    }
+}
